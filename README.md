@@ -53,21 +53,21 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 
 
 ### Preguntas
-![imagen pregunta1](assets/images/pregunta1.png)
+![imagen pregunta1](assets/images/pregunta1.PNG)
 
-![imagen pregunta1.1](assets/images/pregunta1.1.png)
+![imagen pregunta1.1](assets/images/pregunta1.1.PNG)
 
-![imagen pregunta2](assets/images/pregunta2.png)
+![imagen pregunta2](assets/images/pregunta2.PNG)
 
-![imagen pregunta2.1](assets/images/pregunta2.1.png)
+![imagen pregunta2.1](assets/images/pregunta2.1.PNG)
 
-![imagen pregunta3](assets/images/pregunta3.png)
+![imagen pregunta3](assets/images/pregunta3.PNG)
 
-![imagen pregunta3](assets/images/pregunta3.1.png)
+![imagen pregunta3](assets/images/pregunta3.1.PNG)
 
-![imagen pregunta4](assets/images/pregunta4.png)
+![imagen pregunta4](assets/images/pregunta4.PNG)
 
-![imagen pregunta5](assets/images/pregunta5.png)
+![imagen pregunta5](assets/images/pregunta5.PNG)
 
 ***
 

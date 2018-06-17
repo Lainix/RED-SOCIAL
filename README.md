@@ -34,15 +34,24 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 
 ## Lluvia de ideas
 
-* 
-*
-*
-*
-*
+* Red social de perros,
+* Hoteles para perros,
+* Guarderías para perros,
+* Cuidado de perros,
+* Comunicar amantes de perros,
+* Compartir dia a dia de sus mascotas,
+* Noticias,
+* Cómo cuidar a nuestras mascotas,
+* Recomendaciones de otros usuarios,
+* Labor social de guarderías,
+* Adoptar y encontrar lugares de adopcion.
+
 
 ***
 
-## Hipotesis de la lluvia de ideas
+## Hipótesis de la lluvia de ideas
+
+> Se decidió realizar una red social de Perro, para poder compartir, el dia a dia de nuestras mascotas, donde se pueden ver recomendaciones de otros usuarios, así como tips de como adiestrar, donde poder llevarlos a divertirse y también encontrar Hoteles, guarderías, lugares de adopción, así como dar una labor social para ayudar a perros en condición de calle, o en mal estado. Todo para que nuestro mejor amigo viva al máximo y que nuestros amigos vean a nuestro querido compañero en su dia a dia.
 
 
 ***
@@ -61,13 +70,13 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 
 ![imagen pregunta2.1](assets/images/pregunta2.1.PNG)
 
-![imagen pregunta3](assets/images/pregunta3.PNG)
+![imagen pregunta3](assets/images/pregunta3.jpeg)
 
 ![imagen pregunta3](assets/images/pregunta3.1.PNG)
 
 ![imagen pregunta4](assets/images/pregunta4.PNG)
 
-![imagen pregunta5](assets/images/pregunta5.PNG)
+![imagen pregunta5](assets/images/pregunta5.jpeg)
 
 ***
 
@@ -77,7 +86,8 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 
 >Lo que más buscan sobre perros es como educar a mi perro, así como los encuestados dijeron que buscan todo sobre como cuidar a sus mascotas, entre otros que quieren ver imagenes graciosas, centrándonos en el estilo de la página se contemplaban 2 estilo caricatura o profesional, por muy poco las encuestas indicaron que prefieren una página profesional sobre una de caricatura, se les preguntó sobre la paleta de colores a utilizar se escogió la número 3.
 
-![imagen panton3](assets/images/panton3.PNG)
+<img src="assets/images/panton3.PNG" 
+alt="panton3" width="150" height="150"/>
 
 ### Conclusión:
 
@@ -95,6 +105,33 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 * Seguir personas
 * Lugar para fotos
 * Lugar para poder postear
+
+***
+
+## Propuesta 
+
+### RED SOCIAL DE MASCOTAS
+
+> Nombre: Doggy Life.
+
+> Doggy Life, es una red social donde que permitir al usuario amante de los perros buscar y conocer cosas y sitios para compartir y llevar a sus mascotas ya que forman parte fundamental de nuestras vidas y poco a poco los queremos ir involucrando más en nuestras actividades diarias.
+Para ello los usuarios darán a conocer que lugares en Jalisco son Pet Friendly, así como también que lugares son seguros y confiables para su estancia, por medio de recomendaciones de otros usuarios.
+
+>La idea de este sitio es dar a conocer los siguientes aspectos o actividades con beneficio para ellos ejemplo:
+
+* Guarderías para perros,
+* Veterinarias,
+* Estéticas,
+* Sitios donde poder salir a pasear con ellos sin problema alguno,
+* Tiendas,
+* Por el momento solo es para Jalisco,
+* Además si tu y tu mascota son muy aventureros hay una sección muy especial para ti: Esta sección muestra destinos turísticos donde puedes pasar gratos momentos juntos totalmente Pet Friendly,
+* Recomendaciones de otros amantes de perros,
+* Tips para cuidar o adiestrar a tu perro.
+
+> Por otro lado esta red también hará su labor social y altruista al dar a conocer cuales son los albergues de perros sin hogar a los cuales podemos a cuidar para adoptar a nuestro mejor amigo y compañero de por vida.
+
+> Esta red como parte de su labor social no promueve la compra de animales, más bien, está a favor de la adopción y en darle una mejor vida a ese amigo especial que espera por ti.
 
 ***
 
@@ -123,6 +160,6 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 
 ## Creado por
 
-
+ 
 
 ***

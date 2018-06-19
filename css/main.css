@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navegador */
+nav {
+  z-index: 999;
+}
+
+/* Section inicio img */
+.logo {
+  background-position: center;
+  background-size: cover;
+  text-align: center;  
+}
+
+/* Menu */
+Menu
+.burger-menu {
+float: right;
+}
+
+.menu {
+float: rigth;
+text-align: right;
+}
+
+.menu li {
+display: inline-block;
+height: 56px;
+padding: 20px 10px;
+}
+
+.menu a {
+color: black;
+text-decoration: none;
+font-weight: bolder;
+}
+
+.menu a:hover {
+color: rgba(7, 1, 1, 0.09);
+}
+
+.burger {
+float: right;
+margin-top: 15px;
+}
+
+/* Media */
+
+/* Menu */
+@media (max-width:576px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media (min-width:576px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+/* Fin media menu */

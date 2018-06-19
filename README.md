@@ -74,8 +74,6 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 
 ![imagen pregunta3](assets/images/pregunta3.1.PNG)
 
-![imagen pregunta4](assets/images/pregunta4.PNG)
-
 ![imagen pregunta5](assets/images/pregunta5.jpeg)
 
 ***
@@ -84,14 +82,14 @@ Opcional, si se desarrolla un login o se desea almacenar la información en una 
 
 > Después de realizar las encuestas se determino que la mayoria de personas quieren una red social para sus mascotas, los que marcaron no, el motivo principal es que no tienen una mascota, de los encuestados solo 4 dijeron conocer una red social de perros.
 
->Lo que más buscan sobre perros es como educar a mi perro, así como los encuestados dijeron que buscan todo sobre como cuidar a sus mascotas, entre otros que quieren ver imagenes graciosas, centrándonos en el estilo de la página se contemplaban 2 estilo caricatura o profesional, por muy poco las encuestas indicaron que prefieren una página profesional sobre una de caricatura, se les preguntó sobre la paleta de colores a utilizar se escogió la número 3.
+>Lo que más buscan sobre perros es como educar a mi perro, así como los encuestados dijeron que buscan todo sobre como cuidar a sus mascotas, entre otros que quieren ver imagenes graciosas, se les preguntó sobre la paleta de colores a utilizar se escogió la número 3.
 
 <img src="assets/images/panton3.PNG" 
 alt="panton3" width="150" height="150"/>
 
 ### Conclusión:
 
-> Se determinó que si es factible una red social de perros, la cual informe sobre cómo cuidar a tu perro, puedas compartir, lugares pet friendly, en general como cuidar, alimentar y pasear con tu perro, lo mejor es crear una página profesional con colores más cálidos y alegres, y que puedas compartir todo lo relacionado a al dia cotidiano de tu perro.
+> Se determinó que si es factible una red social de perros, la cual informe sobre cómo cuidar a tu perro, puedas compartir, lugares pet friendly, en general como cuidar, alimentar y pasear con tu perro, lo mejor es crear una página con colores más cálidos y alegres, y que puedas compartir todo lo relacionado a al dia cotidiano de tu perro.
 
 ***
 
@@ -149,17 +147,26 @@ Para ello los usuarios darán a conocer que lugares en Jalisco son Pet Friendly,
 
 ## Prototyping
 
+![imagen pregunta5](assets/images/index1.png)
+
+![imagen pregunta5](assets/images/index2.png)
+
+![imagen pregunta5](assets/images/index3.png)
 
 ***
 
 ## Herramientas utilizadas
 
-
+* Html 5
+* Css 3
+* Bootstrap 4
 
 ***
 
 ## Creado por
 
- 
+* Lillys hernandez ramos
+
+* Maria Elizabeth Vera Meza
 
 ***

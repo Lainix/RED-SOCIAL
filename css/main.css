@@ -48,6 +48,48 @@ float: right;
 margin-top: 15px;
 }
 
+/* Post */
+
+#post{
+	width: 45%;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-left: 2%;
+}
+.post_container{
+	width: 100%;
+	background:#FFF;
+	padding: 20px;
+	box-sizing: border-box;	
+	display: inline-block;
+	box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+#btn{
+	border:none;
+	padding: 10px 15px;
+	margin-top: 20px;
+	color:#FFF;
+	outline: none;
+}
+
+#btn {
+	cursor: pointer;
+	background: rgba(5, 28, 104, 0.801);
+}
+
+textarea{
+	display: block;
+	width: 97%;
+	padding: 10px;
+	overflow: hidden;
+	height: auto;
+	resize: none;
+	outline: none;
+}
+
+/* Fin de post */
+
 /* Media */
 
 /* Menu */
@@ -63,3 +105,24 @@ margin-top: 15px;
   }
 }
 /* Fin media menu */
+
+
+/* - Tareas - */
+.tareas .list_text {
+	list-style: none;
+}
+ 
+.tareas .list_text li {
+	border-bottom: 1px solid #B6B6B6;
+}
+ 
+.tareas .list_text li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+ 
+.tareas .list_text li a:hover {
+	text-decoration: line-through;
+}

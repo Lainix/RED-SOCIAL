@@ -123,29 +123,42 @@
             <form class="formulario" method="post" action="" enctype="multipart/form-data">
               <textarea type="text" class="txt" id="text_post" rows="1" placeholder="¿Qué estás pensando?"></textarea>
               <label for="">
-                <small>Adjunta una imagen</small>
-                <br>
-                <input type="file" name="image_post" title="Adjunta una imagen si lo deseas">
+                <!-- <small>Adjunta una imagen</small>
+                <br>                
+                <input type="file" name="image_post" title="Adjunta una imagen" value="Foto"> -->
                 <br>
                 <button type="button" id="btn_agregar" class="btn" name="postear" value="agregar_post"> Postear</button>
+              </label>
+            </form>
+            <form id="form-imagenes">
+              <label class="btn btn-file">
+                <input type="file" name="fichero" value="" id="fichero" class="hidden">
+                <img id="upload" class="img-responsive" src="../assets/images/upload.png" alt="upload">
               </label>
             </form>
           </div>
           <div id="tareas post_post">
             <div class="wrap post_area">
+              <!-- Aqui va el post -->              
               <ul class="list_text" id="list_text">
               </ul>
             </div>
+              <!-- Aqui va la imagen -->
+            <div id="imagenFirebase"></div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <input type="file" id="fileUp-input" onchange="subir()" multiple>
+
+
+
+  <!-- <input type="file" id="fileUp-input" onchange="subir()" multiple> -->
 
   <!-- Script -->
-  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
   <script>
     // Initialize Firebase
     var config = {
@@ -162,6 +175,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="../js/assets/bootstrap.min.js"></script>
+  <script src="../js/img.js"></script>
   <script src="../js/app.js"></script>
 </body>
 

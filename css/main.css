@@ -126,3 +126,12 @@ textarea{
 .tareas .list_text li a:hover {
 	text-decoration: line-through;
 }
+
+#upload {
+	width: 50px;
+	height: 40px;
+}
+
+.img-trumbnail{
+	margin: 10px;
+}

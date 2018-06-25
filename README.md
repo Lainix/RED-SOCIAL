@@ -141,16 +141,20 @@ Para ello los usuarios darán a conocer que lugares en Jalisco son Pet Friendly,
 
 ## Sketching 
 
-
+![imagen Sketching](assets/images/Sketching.PNG)
+![imagen Sketching2](assets/images/Sketching2.PNG)
 
 ***
 
 ## Prototyping
 
+### Inicio
 ![imagen pregunta5](assets/images/index1.png)
 
+### Marketplace
 ![imagen pregunta5](assets/images/index2.png)
 
+### Perfil y seguir
 ![imagen pregunta5](assets/images/index3.png)
 
 ***
@@ -159,7 +163,10 @@ Para ello los usuarios darán a conocer que lugares en Jalisco son Pet Friendly,
 
 * Html 5
 * Css 3
+* Js
 * Bootstrap 4
+* jQuery
+* Firebase
 
 ***
 

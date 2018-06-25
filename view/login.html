@@ -5,36 +5,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/assets/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/assets/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
-
-  <h1>Inicia sesion</h1>
-  <button id="login">Inicia con Google</button>
-  <div id="root"></div>
-  <button id="guardar">Guardar</button>
-
   <!-- Navegador -->
   <header>
+    <section class="container-fluid">
+      <nav class="container-fluid hide-on-mobile menu">
+        <div class="navbar navbar-white bg-white">
+          <div>
+            <ul>
+              <li>
+                <a href="inicio.html">Inicio</a>
+              </li>
+              <li>
+                <a href="perfil.html">Perfil</a>
+              </li>
+              <li>
+                <a href="noticias.html">Noticias</a>
+              </li>
+              <li>
+                <a href="marketplace.html">Sitios de interés</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- burger nav -->
+      <div class="pos-f-t d-md-none">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <ul class="bg-white p-4">
+            <li>
+              <a href="inicio.html">Inicio</a>
+            </li>
+            <li>
+              <a href="perfil.html">Perfil</a>
+            </li>
+            <li>
+              <a href="noticias.html">Noticias</a>
+            </li>
+            <li>
+              <a href="marketplace.html">Sitios de interés</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="navbar navbar-white bg-white">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+              <img class="img-fluid" src="../assets/images/burger.svg" alt="burger">
+            </span>
+          </button>
+        </nav>
+      </div>
+    </section>
+
     <!-- Jumbotron -->
     <section>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <img class="img-fluid" src="assets/images/logo.png" alt="logo">
+          <img class="img-fluid" src="../assets/images/logo.png" alt="logo">
         </div>
       </div>
     </section>
   </header>
 
-  <!-- Prueba -->
-  <ul>
-    <li>
-      <a href="inicio.html">Inicio</a>
-    </li>
-  </ul>
+  <div class="container">
+    <h1>Inicia sesion</h1>
+    <button id="login">Inicia con Google</button>
 
+    <button id="guardar">Guardar</button>
+  </div>
+  <br>
+  <div class="container">
+    <div id="root"></div>
+  </div>
 
   <!-- Script -->
   <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
@@ -53,8 +100,8 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="js/assets/bootstrap.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="../js/assets/bootstrap.min.js"></script>
+  <script src="../js/app.js"></script>
 </body>
 
 </html>

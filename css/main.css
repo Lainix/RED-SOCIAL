@@ -1,75 +1,78 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* Navegador */
+
 nav {
-  z-index: 999;
+	z-index: 999;
 }
 
 /* Section inicio img */
+
 .logo {
-  background-position: center;
-  background-size: cover;
-  text-align: center;  
+	background-position: center;
+	background-size: cover;
+	text-align: center;
 }
 
 /* Menu */
-Menu
-.burger-menu {
-float: right;
+
+Menu .burger-menu {
+	float: right;
 }
 
 .menu {
-float: rigth;
-text-align: right;
+	float: rigth;
+	text-align: right;
 }
 
 .menu li {
-display: inline-block;
-height: 56px;
-padding: 20px 10px;
+	display: inline-block;
+	height: 56px;
+	padding: 20px 10px;
 }
 
 .menu a {
-color: black;
-text-decoration: none;
-font-weight: bolder;
+	color: black;
+	text-decoration: none;
+	font-weight: bolder;
 }
 
 .menu a:hover {
-color: rgba(7, 1, 1, 0.09);
+	color: rgba(7, 1, 1, 0.09);
 }
 
 .burger {
-float: right;
-margin-top: 15px;
+	float: right;
+	margin-top: 15px;
 }
 
 /* Post */
 
-#post{
+#post {
 	width: 45%;
 	display: inline-block;
 	vertical-align: text-top;
 	margin-left: 2%;
 }
-.post_container{
+
+.post_container {
 	width: 100%;
-	background:#FFF;
+	background: #FFF;
 	padding: 20px;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 	display: inline-block;
 	box-shadow: 2px 2px 5px #9c9c9c;
 }
 
-#btn{
-	border:none;
+#btn {
+	border: none;
 	padding: 10px 15px;
 	margin-top: 20px;
-	color:#FFF;
+	color: #FFF;
 	outline: none;
 }
 
@@ -78,7 +81,7 @@ margin-top: 15px;
 	background: rgba(5, 28, 104, 0.801);
 }
 
-textarea{
+textarea {
 	display: block;
 	width: 97%;
 	padding: 10px;
@@ -93,36 +96,38 @@ textarea{
 /* Media */
 
 /* Menu */
+
 @media (max-width:576px) {
-  .hide-on-mobile {
-    display: none;
-  }
+	.hide-on-mobile {
+		display: none;
+	}
 }
 
 @media (min-width:576px) {
-  .hide-on-desktop {
-    display: none;
-  }
+	.hide-on-desktop {
+		display: none;
+	}
 }
+
 /* Fin media menu */
 
-
 /* - Tareas - */
+
 .tareas .list_text {
 	list-style: none;
 }
- 
+
 .tareas .list_text li {
 	border-bottom: 1px solid #B6B6B6;
 }
- 
+
 .tareas .list_text li a {
 	color: #212121;
 	display: block;
 	padding: 20px 0;
 	text-decoration: none;
 }
- 
+
 .tareas .list_text li a:hover {
 	text-decoration: line-through;
 }
@@ -132,6 +137,12 @@ textarea{
 	height: 40px;
 }
 
-.img-trumbnail{
+.img-trumbnail {
 	margin: 10px;
+}
+
+#list_text {
+	border: 1px solid black;
+	width: 100%;
+	height: 10%;
 }

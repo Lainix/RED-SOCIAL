@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="../css/assets/bootstrap.min.css">
   <link rel="stylesheet" href="../css/main.css">
+
 </head>
 
 <body>
@@ -22,31 +23,12 @@
               </li>
               <li>
                 <a href="perfil.html">Perfil</a>
-                <!-- <a href="perfil.html" data-toggle="modal" data-target="#login-modal">Perfil</a> -->
-                <!-- <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-                  <div class="modal-dialog">
-                    <div class="loginmodal-container">
-                      <img class="col-md-12" src="../assets/images/avatar.png" alt="avatar">
-                      <br>
-                      <form>
-                        <input type="text" name="user" placeholder="Username">
-                        <input type="password" name="pass" placeholder="Password">
-                        <input type="submit" name="login" class="login loginmodal-submit bg-warning" value="Login">
-                      </form>
-
-                      <div class="login-help">
-                        <a href="#">Forgot Password?</a>
-                        <a class="text-left text-danger" href="#">Click Here!</a>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
               </li>
               <li>
                 <a href="noticias.html">Noticias</a>
               </li>
               <li>
-                <a href="marketplace.html">Market place</a>
+                <a href="marketplace.html">Sitios de interés</a>
               </li>
             </ul>
           </div>
@@ -66,7 +48,7 @@
               <a href="noticias.html">Noticias</a>
             </li>
             <li>
-              <a href="marketplace.html">Market place</a>
+              <a href="marketplace.html">Sitios de interés</a>
             </li>
           </ul>
         </div>
@@ -80,7 +62,6 @@
         </nav>
       </div>
     </section>
-
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
@@ -88,12 +69,10 @@
       </div>
     </div>
   </header>
-
   <!-- divición -->
-  <dir class="container-fluid">
+  <div class="container-fluid">
     <img src="" alt="">
-  </dir>
-
+  </div>
   <!-- Perfil -->
   <div class="container-fluid">
     <div class="row">
@@ -102,34 +81,42 @@
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../assets/images/perfil1.jpg" alt="avatar">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Doggie Mark</h5>
+            <p class="card-text">Soy un perro cool.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
+            <li class="list-group-item">Developer</li>
+            <li class="list-group-item">Cantante</li>
           </ul>
           <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <p class="card-text">Perro Grande, robusto, compacto y sólido con una buena osamenta. Sin pelage exagerado. El equilibrio es esencial.</p>
           </div>
         </div>
       </div>
       <!-- Post -->
-      <div class="col-12 col-md-9 border">
+      <div class="col-12 col-md-4 border">
         <div id="principal post col-12 col-md-7">
           <div class="wrap post_container">
             <form class="formulario" method="post" action="" enctype="multipart/form-data">
               <textarea type="text" class="txt" id="text_post" rows="1" placeholder="¿Qué estás pensando?"></textarea>
               <label for="">
-                <!-- <small>Adjunta una imagen</small>
-                <br>                
-                <input type="file" name="image_post" title="Adjunta una imagen" value="Foto"> -->
-                <br>
                 <button type="button" id="btn_agregar" class="btn" name="postear" value="agregar_post"> Postear</button>
               </label>
             </form>
+          </div>
+          <div class="tareas" id="post_post">
+            <div class="wrap post_area">
+              <ul class="list_text" id="list_text">
+                <br>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Imagenes -->
+      <div class="col-12 col-md-5 border">
+        <div id="principal post col-12 col-md-7">
+          <div class="wrap post_container">
             <form id="form-imagenes">
               <label class="btn btn-file">
                 <input type="file" name="fichero" value="" id="fichero" class="hidden">
@@ -137,26 +124,16 @@
               </label>
             </form>
           </div>
-          <div id="tareas post_post">
-            <div class="wrap post_area">
-              <!-- Aqui va el post -->              
-              <ul class="list_text" id="list_text">
-              </ul>
-            </div>
-              <!-- Aqui va la imagen -->
-            <div id="imagenFirebase"></div>
-          </div>
+          <!-- Aqui va la imagen -->
+          <div id="imagenFirebase"></div>
         </div>
       </div>
     </div>
   </div>
 
-
-
-
-  <!-- <input type="file" id="fileUp-input" onchange="subir()" multiple> -->
-
   <!-- Script -->
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
 
   <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
   <script>
@@ -176,6 +153,7 @@
     crossorigin="anonymous"></script>
   <script src="../js/assets/bootstrap.min.js"></script>
   <script src="../js/img.js"></script>
+  <script src="../js/post.js"></script>
   <script src="../js/app.js"></script>
 </body>
 

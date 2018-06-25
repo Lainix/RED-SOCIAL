@@ -135,7 +135,12 @@ Para ello los usuarios darán a conocer que lugares en Jalisco son Pet Friendly,
 
 ## Historia de el usuario
 
-
+<img src="assets/images/daniel.jpg" 
+alt="Daniel" width="200" height="200"/>
+>El es daniel es un amante de los perros, los considera los mejores acompañantes, es programador, y disfruta de viajar, siempre que viaja tiene el mismo problema donde dejar a su amado Mark.      
+<img src="assets/images/perfil1.jpg" 
+alt="perfil1" width="100" height="100"/>
+>Así como no sabe a quién recurrir cuando quiere saber algo sobre mascotas, o algo tan simple como publicar el dia a dia de su amado Mark y compartirlo con sus amigos, existen otras redes sociales que hacen algo similar, pero el necesita un solo lugar donde pueda encontrar todo al respecto de su amado Mark.
 
 ***
 
@@ -148,14 +153,23 @@ Para ello los usuarios darán a conocer que lugares en Jalisco son Pet Friendly,
 
 ## Prototyping
 
-### Inicio
+## Inicio
 ![imagen pregunta5](assets/images/index1.png)
 
-### Marketplace
+***
+## Marketplace
 ![imagen pregunta5](assets/images/index2.png)
 
-### Perfil y seguir
+***
+## Perfil y seguir
 ![imagen pregunta5](assets/images/index3.png)
+
+***
+### Servidor
+
+[link de el servidor Doggie-Life](doggie-1ead6.firebaseapp.com)
+
+link de el servidor Doggie-Life [doggie-1ead6.firebaseapp.com].
 
 ***
 

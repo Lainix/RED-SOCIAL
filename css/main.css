@@ -146,3 +146,20 @@ textarea {
 }
 
 /* Fin media menu */
+
+/* Preload */
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+  background-size: cover;
+  text-align: center;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}

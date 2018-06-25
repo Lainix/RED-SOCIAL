@@ -137,10 +137,10 @@ Para ello los usuarios darán a conocer que lugares en Jalisco son Pet Friendly,
 
 <img src="assets/images/daniel.jpg" 
 alt="Daniel" width="200" height="200"/>
->El es daniel es un amante de los perros, los considera los mejores acompañantes, es programador, y disfruta de viajar, siempre que viaja tiene el mismo problema donde dejar a su amado Mark.      
+>El es daniel es un amante de los perros, los considera los mejores acompañantes, es programador, y disfruta de viajar, siempre que viaja tiene el mismo problema donde dejar a su amado Betho.      
 <img src="assets/images/perfil1.jpg" 
 alt="perfil1" width="100" height="100"/>
->Así como no sabe a quién recurrir cuando quiere saber algo sobre mascotas, o algo tan simple como publicar el dia a dia de su amado Mark y compartirlo con sus amigos, existen otras redes sociales que hacen algo similar, pero el necesita un solo lugar donde pueda encontrar todo al respecto de su amado Mark.
+>Así como no sabe a quién recurrir cuando quiere saber algo sobre mascotas, o algo tan simple como publicar el dia a dia de su amado Betho y compartirlo con sus amigos, existen otras redes sociales que hacen algo similar, pero el necesita un solo lugar donde pueda encontrar todo al respecto de su amado Betho.
 
 ***
 

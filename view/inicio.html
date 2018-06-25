@@ -77,7 +77,7 @@
   <div class="container-fluid">
     <div class="row">
       <!-- Card perfil -->
-      <div class="col-12 col-md-3 border">
+      <div class="col-12 col-md-3 border d-none d-sm-block">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="../assets/images/perfil1.jpg" alt="avatar">
           <div class="card-body">
@@ -94,33 +94,38 @@
         </div>
       </div>
       <!-- Post -->
-      <div class="col-12 col-md-4 border">
+      <div class="col-12 col-md-7">
         <div id="principal post col-12 col-md-7">
           <div class="wrap post_container">
             <form class="formulario" method="post" action="" enctype="multipart/form-data">
               <textarea type="text" class="txt" id="text_post" rows="1" placeholder="¿Qué estás pensando?"></textarea>
+              <br>
               <label for="">
                 <button type="button" id="btn_agregar" class="btn" name="postear" value="agregar_post"> Postear</button>
               </label>
             </form>
           </div>
-          <div class="tareas" id="post_post">
-            <div class="wrap post_area">
-              <ul class="list_text" id="list_text">
+          <div class="container border">
+            <div class="tareas" id="post_post">
+              <div class="wrap post_area">
                 <br>
-              </ul>
+                <ul class="list_text text-center" id="list_text">
+                  <li>Hola amigos les cuento el dia a dia de mi amado Mark</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- Imagenes -->
-      <div class="col-12 col-md-5 border">
+      <div class="col-12 col-md-2">
         <div id="principal post col-12 col-md-7">
           <div class="wrap post_container">
             <form id="form-imagenes">
+              <h6>Fotos</h6>
               <label class="btn btn-file">
-                <input type="file" name="fichero" value="" id="fichero" class="hidden">
                 <img id="upload" class="img-responsive" src="../assets/images/upload.png" alt="upload">
+                <input type="file" name="fichero" value="" id="fichero" class="invisible">
               </label>
             </form>
           </div>

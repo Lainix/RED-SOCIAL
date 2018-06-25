@@ -93,6 +93,42 @@ textarea {
 
 /* Fin de post */
 
+/* - Tareas - */
+
+.tareas .list_text {
+	list-style: none;
+}
+
+.tareas .list_text li {
+	height: 3em;
+	position: relative;
+	width: 85%;
+	border: 2px solid #E6E0F8;
+	border-radius: 8px;
+	background-color: #CEF6F5;
+	display: inline-block;
+}
+
+.tareas .list_text li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+#upload {
+	width: 50px;
+	height: 40px;
+}
+
+.img-trumbnail {
+	margin: 10px;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
 /* Media */
 
 /* Menu */
@@ -110,39 +146,3 @@ textarea {
 }
 
 /* Fin media menu */
-
-/* - Tareas - */
-
-.tareas .list_text {
-	list-style: none;
-}
-
-.tareas .list_text li {
-	border-bottom: 1px solid #B6B6B6;
-}
-
-.tareas .list_text li a {
-	color: #212121;
-	display: block;
-	padding: 20px 0;
-	text-decoration: none;
-}
-
-.tareas .list_text li a:hover {
-	text-decoration: line-through;
-}
-
-#upload {
-	width: 50px;
-	height: 40px;
-}
-
-.img-trumbnail {
-	margin: 10px;
-}
-
-#list_text {
-	border: 1px solid black;
-	width: 100%;
-	height: 10%;
-}

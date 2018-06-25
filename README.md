@@ -167,9 +167,8 @@ alt="perfil1" width="100" height="100"/>
 ***
 ### Servidor
 
-[link de el servidor Doggie-Life](doggie-1ead6.firebaseapp.com)
 
-link de el servidor Doggie-Life [doggie-1ead6.firebaseapp.com].
+link de el servidor Doggie-Life [https://doggie-1ead6.firebaseapp.com/].
 
 ***
 
